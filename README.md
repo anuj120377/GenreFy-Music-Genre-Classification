@@ -1,4 +1,5 @@
 # GenreFy-Music-Genre-Classification
+![Uploading image.png…]()
 
 Music Genre Classification using Machine Learning
 
@@ -59,9 +60,3 @@ The main takeaway is that you don’t always need deep learning to get good resu
 
 -> Test on larger and more diverse datasets to ensure the models generalize well.
 
-
-
-
-
-
-Test on larger and more diverse datasets to ensure the models generalize well.
