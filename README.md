@@ -13,6 +13,41 @@ So, music and audio are basically sequential data, and a lot of people immediate
 
 I wanted to see if I could get solid accuracy using classical ML models, just by working smart with the features.
 
+### Dataset
+The dataset used is GTZAN (the famous GTZAN dataset, the MNIST of sounds)
+
+The GTZAN dataset contains 1000 audio files. Contains a total of 10 genres, each genre contains 100 audio files
+
+1.Blues
+
+2.Classical
+
+3.Country
+
+4.Disco
+
+5.Hip-hop
+
+6.Jazz
+
+7.Metal
+
+8.Pop
+
+9.Reggae
+
+10.Rock
+
+Genres original
+A compilation of ten genres, each with 100 audio recordings, each lasting 30 seconds (the famous GTZAN dataset, the MNIST of sounds)
+
+Images original
+Each audio file has a visual representation. Neural networks are one technique to classify data because they usually take in some form of picture representation.
+
+CSV files
+The audio files' features are contained within. Each song lasts for 30 seconds long has a mean and variance computed across several features taken from an audio file in one file. The songs are separated into 3 second audio files in the other file, which has the same format.
+
+
 **My Approach -**
 
 Feature Extraction: I focused on using extracted handcrafted audio features like:
