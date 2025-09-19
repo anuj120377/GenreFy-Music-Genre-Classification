@@ -1,5 +1,4 @@
 # GenreFy-Music-Genre-Classification
-![Uploading image.png…]()
 
 Music Genre Classification using Machine Learning
 
