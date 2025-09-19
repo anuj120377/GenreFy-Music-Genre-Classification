@@ -11,7 +11,7 @@ So, music and audio are basically sequential data, and a lot of people immediate
 I wanted to see if I could get solid accuracy using classical ML models, just by working smart with the features.
 
 # My Approach
-Feature Extraction: I focused on extracting handcrafted audio features like:
+Feature Extraction: I focused on using extracted handcrafted audio features like:
 MFCCs (Mel-frequency cepstral coefficients)
 Chroma features
 Spectral contrast
