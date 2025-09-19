@@ -25,3 +25,32 @@ Gaussian Naive Bayes (GNB)
 Ensemble: Combined all four using a Voting Classifier (soft voting) to see if they could do better together.
 
 Evaluation: Used cross-validation to make sure the results weren’t just random luck.
+
+Performance 
+| Model                | Accuracy (%) |
+| -------------------- | ------------ |
+| KNN                  | 88.02        |
+| SVM                  | 85.21        |
+| Logistic Regression  | 72.44        |
+| Gaussian Naive Bayes | 52.56        |
+| Voting Ensemble      | 85.02        |
+
+Observation: KNN actually turned out to be the best single model, and the ensemble was close but didn’t beat it.
+
+Conclusion
+So, after trying out different models, I found that KNN worked the best with an accuracy of 88%, while the ensemble model with all four classifiers got around 85%. This shows that sometimes the best single model can beat a combination of models!
+The main takeaway is that you don’t always need deep learning to get good results. By understanding the data and extracting meaningful features ML models can still perform really well.
+
+Improvements / Future Work
+
+-> Hyperparameter tuning for KNN, SVM, and the ensemble to squeeze out better accuracy.
+-> Experiment with stacking or boosting ensembles for potentially improved performance.
+-> Use feature selection or dimensionality reduction to make models faster, cleaner, and potentially more accurate.
+-> Perform more advanced feature extraction, including additional spectral, temporal, and rhythm-based features to better capture music characteristics.
+-> Test on larger and more diverse datasets to ensure the models generalize well.
+
+
+
+
+
+Test on larger and more diverse datasets to ensure the models generalize well.
