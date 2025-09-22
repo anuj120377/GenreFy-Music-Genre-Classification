@@ -9,7 +9,7 @@ This project focuses on predicting the genre of music based on audio features us
 
 ### **Motivation -**
 
-So, music and audio are basically sequential data, and a lot of people immediately jump to using deep learning—LSTMs, GRUs, or even CNNs—to classify genres. But I thought: why make it so complicated? Deep models take a lot of resources, can be tricky to tune, and honestly, sometimes you don’t even need them if you do some good feature engineering.
+So, music and audio are basically sequential data, and a lot of people immediately jump to using deep learning LSTMs, GRUs, or even CNNs to classify genres. But I thought: why make it so complicated? Deep models take a lot of resources, can be tricky to tune, and honestly, sometimes you don’t even need them if you do some good feature engineering.
 
 I wanted to see if I could get solid accuracy using classical ML models, just by working smart with the features.
 
